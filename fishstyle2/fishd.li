@@ -20,6 +20,9 @@ SET fish_color_param:839496
 SET fish_color_quote:657b83
 SET fish_color_redirection:6c71c4
 SET fish_color_sky:00BFFF
+SET fish_color_orange:FFA500
+SET fish_color_snow:FFFAFA
+SET fish_color_pink:FFC0CB
 SET fish_color_darkTurquoise:00CED1 
 SET fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
 SET fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
