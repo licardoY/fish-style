@@ -13,14 +13,14 @@ function fish_prompt
     if test $USER = root -o $USER = toor
         set_color -o red
     else
-        set_color yellow
+        set_color $fish_color_snow
     end
     echo -n $USER
     
-    #set_color  
-    echo -n '@'
+    set_color $fish_color_orange  
+    echo -n '☀ '
     if [ -z "$SSH_CLIENT" ]
-        set_color blue
+        set_color $fish_color_snow
     else
         set_color -o cyan
     end
